@@ -75,7 +75,7 @@ Power BI — Connect to MySQL, build dashboard with DAX measures
 
 ## 🗃️ SQL Highlights
 
-- **5 analysis queries** covering low stock detection, lead time performance, late delivery rate, top delayed categories, and monthly trends
+- **2 analysis queries** covering low stock detection, lead time performance, late delivery rate, top delayed categories, and monthly trends
 - **1 stored procedure** `GetLowStockAlerts()` — auto-flags products with avg order quantity below threshold
 
 ```sql
@@ -89,18 +89,18 @@ Full scripts available in the [`/sql`](./sql/) folder.
 ## 📁 Repository Structure
 
 ```
-supply-chain-inventory-tracker/
+Supply-Chain-Inventory-Optimization-Tracker/
 │
 ├── sql/
 │   └── Supply_chain_queries.sql      # All queries + stored procedure
 │
 ├── dashboard/
-│   └── supply_chain_dashboard.pbix   # Power BI report file
+│   └── Supply Chain & Inventory Optimization Tracker.pbix   # Power BI report file
 │
 ├── screenshots/
-│   ├── page1_kpi_overview.png
-│   ├── page2_inventory_status.png
-│   └── page3_lead_time.png
+│   ├── Page_1_KPI_Overview.png
+│   ├── Page_2_Inventory_Status.png
+│   └── Page_3_Supplier_Lead_Time.png
 │
 └── README.md
 ```

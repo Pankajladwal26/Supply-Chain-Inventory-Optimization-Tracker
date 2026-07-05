@@ -54,19 +54,19 @@ Power BI — Connect to MySQL, build dashboard with DAX measures
 ## 📊 Power BI Dashboard Pages
 
 ### Page 1 — KPI Overview
-![KPI Overview](screenshots/page1_kpi_overview.png)
+![KPI Overview](Page_1_KPI_Overview.png)
 - Total Orders, Low Stock Items, Avg Shipping Delay, Stock-Out Risk % (card visuals)
 - Monthly Order & Sales Trend (line chart)
 - Category vs. Avg Order Quantity (bar chart)
 - Slicer: Order Status
 
 ### Page 2 — Inventory Status
-![Inventory Status](screenshots/page2_inventory_status.png)
+![Inventory Status](Page_2_Inventory_Status.png)
 - Product-level table with Stock Status (conditional formatting: 🔴 Low Stock / 🟡 Normal / 🟢 Overstocked)
 - Slicer: Category Name
 
 ### Page 3 — Supplier Lead Time
-![SupplierLead Time](screenshots/page3_lead_time.png)
+![SupplierLead Time](Page_3_Supplier_Lead_Time.png)
 - Avg Shipping Delay over time (line chart)
 - Late Order % by Category (bar chart)
 - Slicer: Category Name
